@@ -1,0 +1,25 @@
+{
+  "name": "ai-news-aggregator",
+  "version": "1.0.0",
+  "description": "AI新闻聚合CLI工具",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": ["ai", "news", "rss", "cli"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "dayjs": "^1.11.10",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
