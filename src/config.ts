@@ -13,6 +13,10 @@ export const RSS_SOURCES: RSSSource[] = [
     name: "Hacker News AI",
     url: "https://hnrss.org/newest?q=AI&count=30",
     isHN: true
+  },
+  {
+    name: "OpenAI Blog",
+    url: "https://openai.com/blog/rss.xml"
   }
 ];
 
